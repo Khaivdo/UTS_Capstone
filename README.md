@@ -10,6 +10,12 @@ way driving, which increases safety for drivers and people around.
 This software has only been tested on ubuntu 16.04(x64), python3.7, cuda-9.0, cudnn-7.0 with a GTX-1070 GPU. 
 The tensorflow version is 1.13.1
 
+## Pretrained Models
+Downloads these pretrained models and put them in their corresponding folders before you run the project:
+
+[Lanenet Model](https://www.dropbox.com/sh/tnsf0lw6psszvy4/AAA81r53jpUI3wLsRW6TiPCya?dl=0) - put in /lanenet-lane-detection/model/tusimple_lanenet_vgg
+
+[YOLOv3 Model](https://github.com/ayooshkathuria/pytorch-yolo-v3) - put in /Object-detection-and-Distance-estimation
 
 ## Test models
 You can test a video on the trained models as follows
@@ -29,9 +35,9 @@ python video.py --video 5.mp4
 ```
 
 
-`The final result:`
+The final result:
 
-![Final Result](.Object-detection-and-Distance-estimation/finalResult.png)
+![](https://github.com/Khaivdo/UTS_Capstone/blob/master/Object-detection-and-Distance-estimation/finalResult.png)
 
 
 ## References
