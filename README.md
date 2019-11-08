@@ -39,6 +39,15 @@ The final result:
 
 ![](https://github.com/Khaivdo/UTS_Capstone/blob/master/Object-detection-and-Distance-estimation/finalResult.png)
 
+While YOLOv3 model was trained on COCO dataset and able to detect up to 80 objects, for the purpose of this project, only the distance between 6 objects below and the camera would be detected:
+
+- Car
+- Truck
+- Motorbike
+- Bicycle
+- Bus
+- Person
+
 
 ## References
  
